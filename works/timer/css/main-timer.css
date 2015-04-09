@@ -1,0 +1,48 @@
+
+body {
+    /*background: url("img/pattern_01.gif") repeat scroll 0% 0% #F0F0F0;*/
+    /*background: #F8F5F2 url("img/pattern_01.gif") repeat-y 100%;*/
+	/*background: url("images/pattern_01.gif") repeat scroll 0% 0% transparent;*/
+	background: url("../img/background_jeans.png") repeat scroll 0% 0% #F0F0F0;
+}
+ 
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.timer-first {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.timer-second {
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+.stopwatch-controls {
+	margin-top: 20px;
+}
+
+	.stopwatch-controls .btn-danger {
+		margin-left: 20px;
+	}
+
+.stopwatch-laps {
+	margin-top: 20px;
+}
+
+.stopwatch-laps .alert {
+	position: relative;
+	font-size: 18px;
+}
+
+.stopwatch-laps .label-danger {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	font-size: 12px;
+	cursor: pointer;
+}

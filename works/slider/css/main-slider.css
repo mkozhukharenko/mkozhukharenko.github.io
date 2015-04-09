@@ -1,0 +1,93 @@
+
+
+
+/*-------- page styles -------- */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-wrapper {
+    margin: 0 auto 53px;
+    width: 93.75%; /*900 / 960*/
+    max-width: 1400px; 
+}
+
+nav {
+	min-height: 100px;
+}
+
+/*-------- slider styles ----------*/
+.slider {
+	overflow: hidden;
+}
+
+/* ---- slider navigation  ----*/
+.nav-section {
+	width: 25%; /*225px / 900px*/
+	float: left;
+	height: 327px;
+}
+.nav-section  > div {
+	height: 25%;  
+	width : 100%;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+	position: relative;
+}
+.nav-section  > div:first-child {
+	border-top: 1px solid grey;
+}
+.nav-section .active {
+	background-color: orange;
+}
+
+.nav-section  img {
+	display: none;
+}
+
+/* ---- slider pictures  ----*/
+.pic-section {
+	width: 75%; /*675px / 900px*/
+	float: right;
+	overflow: hidden;
+}
+.pic-container {
+	width: 400%; /* 675*4 */
+	font-size: 0;
+}
+.pic-1, .pic-2,.pic-3,.pic-4 {
+	float: left;
+	width: 25%;
+}
+.pic-container img {
+	width: 100%;  /*better to use max-width*/
+}
+
+@media (max-width: 480px) {	/*or 660px*/
+	.nav-section {
+		width: 100%; 	/*900px*/
+		height: 15px !important;
+	}
+	.nav-section > div {
+		width: 25%; 	/*225px / 900px*/
+		height: 100%;
+		float: left;
+	}
+	.nav-section  > div:first-child {
+		border-top: none;
+	}
+	.nav-section  > div:last-child {
+		border-right: 1px solid grey;
+	}
+	.nav-section .active img {
+		transform: rotate(-90deg);
+		top: -36%;
+		left: 45%;
+	}
+	.pic-section {
+		width: 100%;	/*900px*/
+	}
+}
+
