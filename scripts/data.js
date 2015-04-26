@@ -4,7 +4,7 @@ var data = [
 		title: "World time map",
 		description: "Check time/lng/lat/timezone on Global map (Leaflet). Build using MVC pattern. Timezonedb API used for getting local time by lng/lat.",
 		linkToDemo: "http://mkozhukharenko.github.io/world-time-map/app/index.html",
-		linkToCode: "https://github.com/mkozhukharenko/mkozhukharenko.github.io",
+		linkToCode: "https://github.com/mkozhukharenko/world-time-map",
 		image: "images/works-color/worl-time-map.jpg",
 		tags: ["Jqeury", "AJAX", "Less"]
 	},
